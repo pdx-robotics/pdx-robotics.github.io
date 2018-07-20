@@ -13,7 +13,7 @@
 	</head>
     <body class="subpage">
 
-    <?php include "./parts/header.php"; ?>
+    <?php include "assets/parts/header.php"; ?>
 
     <!-- Main -->
         <section id="main" class="wrapper">
@@ -42,7 +42,7 @@
                         members.
                     </li>
                 </ol>   
-                <?php include "./parts/availability_table.php"; ?>
+                <?php include "assets/parts/availability_table.php"; ?>
 
             <!-- Discord Server Information -->
                 <h2 id="content">Chat with us on Discord</h2>
