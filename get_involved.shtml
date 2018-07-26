@@ -40,7 +40,8 @@
                         members.
                     </li>
                 </ol>   
-                <?php include "assets/parts/availability_table.php"; ?>
+                
+                <!--#include virtual="assets/parts/availability_table.html"-->
 
             <!-- Discord Server Information -->
                 <h2 id="content">Chat with us on Discord</h2>
