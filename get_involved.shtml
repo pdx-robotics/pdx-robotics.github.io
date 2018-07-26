@@ -1,25 +1,29 @@
-<!DOCTYPE HTML>
 <!--
     Viking Robotics Society
     Details for anyone that wants to get involved in the society. 
 -->
-<html>
+<!DOCTYPE HTML>
+<html lang="en">
 
 	<head>
 		<title>Get Involved - Viking Robotics Society</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
 		<link rel="stylesheet" href="assets/css/main.css" />
     </head>
-    <body class="subpage">
+    <body class="is-preload">
+    
+    <!-- Page Top Bar and page title -->
+        <!--#include virtual="./assets/parts/header.html"-->
+        <div id="heading">
+            <h1>Get Involved</h1>
+        </div>
 
-    <!--#include virtual="./assets/parts/header.html"-->
     <!-- Main -->
         <section id="main" class="wrapper">
             <div class="inner">
-                <header class="align-center">
-                    <h2>Get Involved</h2>
-                </header>
             <!-- Content -->
                 <p>
                 No experience or well-versed in robotics, we welcome everyone to join us 
@@ -44,13 +48,19 @@
                 <!--#include virtual="assets/parts/availability_table.html"-->
 
             <!-- Discord Server Information -->
-                <h2 id="content">Chat with us on Discord</h2>
-                <p>Join our Discord chat server and come talk with members of the society!</p>
-                <ul>
-                    <li>Make an account with Discord and then use this invite code: <a href="https://discord.gg/umrxuvg">umrxuvg</a></li>
-                    <li>Change your nickname to your real name so we can identify you in the server.</li>
-                </ul>
-
+                <div class="row">
+                    <div class="col-6 col-12-medium">
+                        <h2>Chat with us on Discord</h2>
+                        <p>Join our Discord chat server and come talk with members of the society!</p>
+                        <ul>
+                            <li>Make an account with Discord and then use this invite code: <a href="https://discord.gg/umrxuvg">umrxuvg</a></li>
+                            <li>Change your nickname to your real name so we can identify you in the server.</li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-12-medium">
+                        <iframe src="https://discordapp.com/widget?id=404333712378036227&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0"></iframe>
+                    </div>
+                </div>
             </div>
         </section>
     </body>
