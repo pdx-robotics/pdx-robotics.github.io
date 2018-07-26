@@ -58,7 +58,12 @@
                         </ul>
                     </div>
                     <div class="col-6 col-12-medium">
-                        <iframe src="https://discordapp.com/widget?id=404333712378036227&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0"></iframe>
+                        <iframe 
+                            src="https://discordapp.com/widget?id=404333712378036227&theme=dark" 
+                            width="350" 
+                            height="500" 
+                            class="discord-widget">
+                        </iframe>
                     </div>
                 </div>
             </div>
