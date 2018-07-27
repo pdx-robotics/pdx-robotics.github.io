@@ -44,13 +44,13 @@
                         members.
                     </li>
                 </ol>   
-                
                 <!--#include virtual="assets/parts/availability_table.html"-->
+                <br> <!-- Line Break -->
 
             <!-- Discord Server Information -->
+                <h2>Chat with us on Discord</h2>
                 <div class="row">
                     <div class="col-6 col-12-medium">
-                        <h2>Chat with us on Discord</h2>
                         <p>Join our Discord chat server and come talk with members of the society!</p>
                         <ul>
                             <li>Make an account with Discord and then use this invite code: <a href="https://discord.gg/umrxuvg">umrxuvg</a></li>
