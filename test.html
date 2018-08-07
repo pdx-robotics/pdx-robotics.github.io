@@ -1,17 +1,19 @@
 <html>
-<head>
-<title>Include Common Files</title>
-<script src="/assets/js/jquery-1.10.2.js"></script>
-</head>
-<body>
-<div id="header"></div><br />
-<div id="content">
-Main Content
-</div><br />
-<div id="footer"></div>
-<script>
-$("#header").load("/header.html");
-$("#footer").load("/footer.html");
-</script>
-</body>
+    <head>
+        <title>Include Common Files</title>
+        <script src="/assets/js/jquery-1.10.2.js"></script>
+    </head>
+    <body>
+        <div id="header"></div><br />
+
+        <div id="heading" >
+            <h1>Generic Page</h1>
+        </div>
+
+        <div id="footer"></div>
+        <script>
+            $("#header").load("/header.html");
+            $("#footer").load("/footer.html");
+        </script>
+    </body>
 </html>
