@@ -16,7 +16,7 @@
 	</head>
 	<body class="is-preload">
 
-		<div id="header"></div><br />
+		<!--#include virtual="./header.html"-->
 
 		<!-- Banner -->
 			<section id="banner">
@@ -36,7 +36,7 @@
 					</header>
 
 		<!-- Footer -->
-		<div id="footer"></div>
+		<!--#include virtual="./footer.html"-->
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
@@ -44,9 +44,5 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-			<script>
-					$("#header").load("/header.html");
-					$("#footer").load("/footer.html");
-			</script>
 	</body>
 </html>

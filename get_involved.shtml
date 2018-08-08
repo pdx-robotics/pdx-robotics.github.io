@@ -15,7 +15,7 @@
     </head>
     <body class="is-preload">
     
-        <div id="header"></div><br />
+		<!--#include virtual="./header.html"-->
     <!-- Page Top Bar and page title -->
         <!--#include virtual="./assets/parts/header.html"-->
         <div id="heading">
@@ -70,16 +70,12 @@
             </div>
         </section>
 
-        <div id="footer"></div>
+		<!--#include virtual="./footer.html"-->
 
         <script src="assets/js/jquery.min.js"></script>
         <script src="assets/js/browser.min.js"></script>
         <script src="assets/js/breakpoints.min.js"></script>
         <script src="assets/js/util.js"></script>
         <script src="assets/js/main.js"></script>
-        <script>
-            $("#header").load("/header.html");
-            $("#footer").load("/footer.html");
-        </script>
     </body>
 </html>
