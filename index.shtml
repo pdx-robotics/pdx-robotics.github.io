@@ -12,11 +12,10 @@
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<script src="/assets/js/jquery-1.10.2.js"></script>
 	</head>
 	<body class="is-preload">
 
-		<!--#include virtual="./header.html"-->
+		<!--#include virtual="/header.html"-->
 
 		<!-- Banner -->
 			<section id="banner">
@@ -36,7 +35,7 @@
 					</header>
 
 		<!-- Footer -->
-		<!--#include virtual="./footer.html"-->
+		<!--#include virtual="/footer.html"-->
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>

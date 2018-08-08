@@ -15,9 +15,8 @@
     </head>
     <body class="is-preload">
     
-		<!--#include virtual="./header.html"-->
     <!-- Page Top Bar and page title -->
-        <!--#include virtual="./assets/parts/header.html"-->
+        <!--#include virtual="/header.html"-->
         <div id="heading">
             <h1>Get Involved</h1>
         </div>
@@ -45,7 +44,7 @@
                         members.
                     </li>
                 </ol>   
-                <!--#include virtual="assets/parts/availability_table.html"-->
+                <!--#include virtual="availability_table.html"-->
                 <br> <!-- Line Break -->
 
             <!-- Discord Server Information -->
