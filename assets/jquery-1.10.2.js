@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /*!
  * jQuery JavaScript Library v1.10.2
  * http://jquery.com/
@@ -9789,6 +9788,8 @@ if ( typeof module === "object" && module && typeof module.exports === "object" 
 
 })( window );
 =======
+=======
+>>>>>>> 16da906c762beeffaec77b593986b18f23226b4d
 
 
 
@@ -51201,5 +51202,3 @@ if ( typeof module === "object" && module && typeof module.exports === "object" 
 
   </body>
 </html>
-
->>>>>>> Attempt jquery with local library file
