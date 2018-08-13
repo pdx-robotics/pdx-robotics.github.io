@@ -1,4 +1,4 @@
-##Viking Robotics Website
+# Viking Robotics Website
 
 Information for the public and community about our student group.
 

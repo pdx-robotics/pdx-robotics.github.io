@@ -97,5 +97,6 @@
                 </div>
             </div>
         </section>
+        <!--#include virtual="/footer.html"-->
     </body>
 </html>

@@ -1,0 +1,20 @@
+<!DOCTYPE HTML>
+<!--
+    Viking Robotics Society
+    Page with information to our projects
+-->i
+<html>
+	<head>
+		<title>Viking Robotics Society -- Portland State University</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+        <!--#include virtual="/header.html"-->
+        <!--#include virtual="/construction.html"-->
+        <!--#include virtual="/footer.html"-->
+    </body>
+</html>
