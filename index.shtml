@@ -32,8 +32,11 @@
 					<header class="special">
 						<h2>We are under construction.</h2>
 						<p>But we don't bite. <a href="get_involved.shtml">Check out our Get Involved page to get in touch.</a></p>
-					</header>
+					</header
+                    >
+                </div>
 
+                <!--#include virtual="/events.html"-->
 		<!-- Footer -->
 		<!--#include virtual="/footer.html"-->
 
@@ -43,5 +46,6 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+            </section>
 	</body>
 </html>

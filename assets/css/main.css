@@ -2829,3 +2829,7 @@ body.is-menu-visible #menu {
     allowtransparency="true";
     frameborder="0";
 }
+.center iframe {
+    margin: 0 auto;
+    display: block;
+}
