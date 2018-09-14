@@ -1,8 +1,8 @@
+<!DOCTYPE HTML>
 <!--
     Viking Robotics Society
     Details for anyone that wants to get involved in the society. 
 -->
-<!DOCTYPE HTML>
 <html lang="en">
 
 	<head>
@@ -17,9 +17,12 @@
     
     <!-- Page Top Bar and page title -->
         <!--#include virtual="/header.html"-->
-        <div id="heading">
-            <h1>Get Involved</h1>
-        </div>
+
+        <section id="banner">
+            <div id="inner">
+                <h1>Get Involved</h1>
+            </div>
+        </section>
 
     <!-- Main -->
         <section id="main" class="wrapper">
@@ -99,6 +102,13 @@
                     </div>
                 </div>
             </div>
+
+            <!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
         </section>
         <!--#include virtual="/footer.html"-->
     </body>
