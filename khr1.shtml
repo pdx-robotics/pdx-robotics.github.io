@@ -36,7 +36,7 @@
         
         <div class="col-6 col-12-medium">
             <h3>Links</h3>
-            <a href="https://github.com/pdx-robotics/" class="button primary fit"><i class="icon fa-github">&nbsp;</i>Gitub Repository</a>
+            <a href="https://github.com/pdx-robotics/Arduino_KHR-1" class="button primary fit"><i class="icon fa-github">&nbsp;</i>Gitub Repository</a>
             <!-- Empty paragraph for spacing purposes --> <p></p>
             <h3>Contributing Members</h3>
             <div class="row">
@@ -57,7 +57,7 @@
             </div>
             
             <h3>Status of Project</h3><!-- Onging, complete, or stale -->
-            <p>Onging</p>
+            <p>Ongoing</p>
         </div>
     </div>
     
