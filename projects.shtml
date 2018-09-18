@@ -19,6 +19,19 @@
 
 <!--#include virtual="/parts/header.html"-->
 <!--#include virtual="/parts/construction.html"-->
+
+	<section class="wrapper">
+	<div class="inner">
+		<h2>Projects Index</h2>
+		<ul>
+			<li><a href="khr1.shtml">Humanoid Robot KHR-1</a></li>
+			<li><a href="bubblebee.shtml">Bicopter Drone - Bubblebee</a></li>
+			<li><a href="custom_esc.shtml">Custom ESC</a></li>
+			<li><a href="tank108">Tamiya Tank Control - Tank 108</a></li>
+		</ul>
+	</div>
+	</section>
+
 <!--#include virtual="/parts/footer.html"-->
 
 <!-- Scripts -->
