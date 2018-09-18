@@ -9,7 +9,6 @@
 <head>
 	<title>Viking Robotics Society -- Portland State University</title>
 	<!--#include virtual="/parts/headmeta.html"-->
-	<!--#include virtual="/parts/include_scripts.html"-->
 </head>
 
 <body class="is-preload">
@@ -32,6 +31,8 @@
             >
         </div>
 <!--#include virtual="/parts/events.html"-->
+<!--#include virtual="/parts/include_scripts.html"-->
+
 	</section>
 
 <!-- Footer and Scripts -->
