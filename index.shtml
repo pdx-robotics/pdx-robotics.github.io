@@ -5,10 +5,11 @@
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 -->
 <html lang="en">
-	
+
 <head>
 	<title>Viking Robotics Society -- Portland State University</title>
 	<!--#include virtual="/parts/headmeta.html"-->
+	<!--#include virtual="/parts/include_scripts.html"-->
 </head>
 
 <body class="is-preload">
@@ -35,6 +36,5 @@
 
 <!-- Footer and Scripts -->
 <!--#include virtual="/parts/footer.html"-->
-<!--#include virtual="/parts/include_scripts.html"-->
 </body>
 </html>
