@@ -5,16 +5,17 @@
 -->
 <html lang="en">
 
-<!--#include virtual="/parts/headmeta.html"-->
+<head>
+    <title>Get Involved - Viking Robotic Society</title>
+    <!--#include virtual="/parts/headmeta.html"-->
+</head>
 
 <body class="is-preload">
 
 <!--#include virtual="/parts/header.html"-->
-<section id="banner">
-    <div id="inner">
-        <h1>Get Involved</h1>
-    </div>
-</section>
+<div id="heading" >
+    <h1>Get Involved</h1>
+</div>
 
 <!-- Main -->
 <section id="main" class="wrapper">
@@ -96,9 +97,9 @@
         </div>
     </div>
 </div>
+</section>
+
 <!--#include virtual="/parts/include_scripts.html"-->
 <!--#include virtual="/parts/footer.html"-->
-</section>
-    
 </body>
 </html>

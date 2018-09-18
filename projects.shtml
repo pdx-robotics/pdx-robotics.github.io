@@ -5,12 +5,17 @@
 -->
 <html lang="en">
 
-<!--#include virtual="/parts/headmeta.html"-->
+<head>
+	<title>Projects Index - Viking Robotic Society</title>
+	<!--#include virtual="/parts/headmeta.html"-->
+</head>
+
 <body class="is-preload">
-    <!--#include virtual="/parts/header.html"-->
-    <!--#include virtual="/parts/construction.html"-->
-	<!--#include virtual="/parts/footer.html"-->
-	<!--#include virtual="/parts/include_scripts.html"-->
+
+<!--#include virtual="/parts/header.html"-->
+<!--#include virtual="/parts/construction.html"-->
+<!--#include virtual="/parts/footer.html"-->
+<!--#include virtual="/parts/include_scripts.html"-->
 
 </body>
 </html>
