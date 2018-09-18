@@ -5,7 +5,6 @@
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 -->
 <html lang="en">
-
 <head>
 	<title>Viking Robotics Society -- Portland State University</title>
 	<meta charset="utf-8" />
@@ -13,12 +12,12 @@
 	<meta name="description" content="" />
 	<meta name="keywords" content="" />
 	<link rel="stylesheet" href="assets/css/main.css" />
-	<link rel="icon" href="images/vrs_logo_white_icon.png"/>	
+	<link rel="icon" href="images/vrs_logo_white_icon.png"/> 
 </head>
 
 <body class="is-preload">
-<!--#include virtual="/parts/header.html"-->
-<!-- Banner -->
+	<!--#include virtual="parts/header.html"-->
+	<!-- Banner -->
 	<section id="banner">
 		<div class="inner">
 			<h1>Viking Robotics Society</h1>
@@ -26,7 +25,8 @@
 		</div>
 		<video autoplay loop muted playsinline src="images/banner.mp4"></video>
 	</section>
-<!-- Highlights -->
+
+	<!-- Highlights -->
 	<section class="wrapper">
 		<div class="inner">
 			<header class="special">
@@ -35,12 +35,16 @@
 			</header
             >
         </div>
-<!--#include virtual="/parts/events.html"-->
-<!--#include virtual="/parts/include_scripts.html"-->
-
-	</section>
-
-<!-- Footer and Scripts -->
-<!--#include virtual="/parts/footer.html"-->
+		<!--#include virtual="parts/events.html"-->
+		
+	<!-- Footer -->
+	<!--#include virtual="parts/footer.html"-->
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+    </section>
 </body>
 </html>

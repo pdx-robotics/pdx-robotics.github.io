@@ -20,7 +20,13 @@
 <!--#include virtual="/parts/header.html"-->
 <!--#include virtual="/parts/construction.html"-->
 <!--#include virtual="/parts/footer.html"-->
-<!--#include virtual="/parts/include_scripts.html"-->
+
+<!-- Scripts -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/browser.min.js"></script>
+<script src="assets/js/breakpoints.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
 
 </body>
 </html>
