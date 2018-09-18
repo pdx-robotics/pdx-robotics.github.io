@@ -18,6 +18,85 @@
 <body class="is-preload">
 
 <!--#include virtual="/parts/header.html"-->
+<!--========================================================================================-->        
+    
+<section class="wrapper">
+   
+<div class="inner">
+    <h1>Humanoid Robot KHR-1</h1>
+        
+    <div class="row">
+        <div class="col-6 col-12-medium">
+            
+            <div class="image-div">
+                <!-- Best image size would be 500x500 pixels-->
+                <img src="images/cta01.jpg" class="project-image" alt="Project Image">
+            </div>
+        </div>
+        
+        <div class="col-6 col-12-medium">
+            <h3>Links</h3>
+            <a href="https://github.com/pdx-robotics/" class="button primary fit"><i class="icon fa-github">&nbsp;</i>Gitub Repository</a>
+            <!-- Empty paragraph for spacing purposes --> <p></p>
+            <h3>Contributing Members</h3>
+            <div class="row">
+                <div class="col-6 col-12-medium">
+                    <ul>
+                        <li>Aaron Chan</li>
+                        <li>Jake Chung</li>
+                        <li>Ha Ly</li>
+                    </ul>
+                </div>
+                <div class="col-6 col-12-medium">
+                    <ul>
+                        <li>Ian Eykamp</li>
+			<li>Jordan Bergmann</li>
+			<li>Geoffrey Olson</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <h3>Status of Project</h3><!-- Onging, complete, or stale -->
+            <p>Onging</p>
+        </div>
+    </div>
+    
+    <br>
+    <h3>Description</h3> <!-- What is it and the purpose of the project -->
+    <p>The Humanoid Robot KHR-1 was made by Kondo Kagaku (近藤科学) and introduced in 2004.  
+    	We have changed the control method to an Arduino-based system so that it is portable and works with the Kinect camera. 
+	By interfacing with the Kinect, not only does it serve as a fun and interactive demo, 
+	but also serves as  a stepping stone for us toward more complex Kinect-driven projects and machine learning.
+    </p>
+
+    <div class="table-wrapper">
+        <table>
+            <thead>
+                <tr>
+                    <th>Milestones</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Flag Semaphore to fix hardware</td>
+                    <td>Complete</td>
+                </tr>
+                <tr>
+                    <td>Interface with Kinect camera to copy arm movements</td>
+                    <td>Ongoing</td>
+                </tr>
+                <tr>
+                    <td>Implement a Walking Algorithm</td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</div>
+<!--========================================================================================-->
+
 <!--#include virtual="/parts/construction.html"-->
 <!--#include virtual="/parts/footer.html"-->
 
