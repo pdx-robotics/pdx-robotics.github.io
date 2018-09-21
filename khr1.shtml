@@ -63,10 +63,11 @@
     
     <br>
     <h3>Description</h3> <!-- What is it and the purpose of the project -->
-    <p>The Humanoid Robot KHR-1 was made by Kondo Kagaku (近藤科学) and introduced in 2004.  
+    <p>
+        The Humanoid Robot KHR-1 was made by Kondo Kagaku (近藤科学) and introduced in 2004.  
     	We have changed the control method to an Arduino-based system so that it is portable and works with the Kinect camera. 
-	By interfacing with the Kinect, not only does it serve as a fun and interactive demo, 
-	but also serves as  a stepping stone for us toward more complex Kinect-driven projects and machine learning.
+	    By interfacing with the Kinect, not only does it serve as a fun and interactive demo, 
+	    but also serves as  a stepping stone for us toward more complex Kinect-driven projects and machine learning.
     </p>
 
     <div class="table-wrapper">
@@ -96,8 +97,6 @@
 
 </div>
 <!--========================================================================================-->
-
-<!--#include virtual="/parts/construction.html"-->
 <!--#include virtual="/parts/footer.html"-->
 
 <!-- Scripts -->

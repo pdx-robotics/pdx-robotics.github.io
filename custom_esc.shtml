@@ -56,7 +56,8 @@
     
     <br>
     <h3>Description</h3> <!-- What is it and the purpose of the project -->
-    <p>WIP
+    <p>
+        WIP
     </p>
 
     <div class="table-wrapper">
@@ -78,8 +79,6 @@
 
 </div>
 <!--========================================================================================-->
-
-<!--#include virtual="/parts/construction.html"-->
 <!--#include virtual="/parts/footer.html"-->
 
 <!-- Scripts -->
