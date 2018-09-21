@@ -6,7 +6,7 @@
 <html lang="en">
 
 <head>
-	<title>Tank 108 - Viking Robotic Society</title>
+	<title>Tank 70108 - Viking Robotic Society</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<meta name="description" content="" />
@@ -24,14 +24,14 @@
 <section class="wrapper">
    
 <div class="inner">
-    <h1>Tamiya Tank Control - Tank 108</h1>
+    <h1>Tamiya Tank Control - Tank 70108</h1>
         
     <div class="row">
         <div class="col-6 col-12-medium">
             
             <div class="image-div">
                 <!-- Best image size would be 500x500 pixels-->
-                <img src="images/cta01.jpg" class="project-image" alt="Project Image">
+                <img src="images/tank70108.png" class="project-image" alt="Project Image">
             </div>
         </div>
         
