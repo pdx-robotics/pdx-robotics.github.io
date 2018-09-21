@@ -48,29 +48,16 @@
                         <li>Weiting Duan</li>
                     </ul>
                 </div>
-                <div class="col-6 col-12-medium">
-                    <ul>
-                        <li>Name 4</li>
-                        <li>Name 5</li>
-                        <li>Name 6</li>
-                    </ul>
-                </div>
             </div>
             
             <h3>Status of Project</h3><!-- Onging, complete, or stale -->
-            <p>Onging</p>
+            <p>Ongoing</p>
         </div>
     </div>
     
     <br>
     <h3>Description</h3> <!-- What is it and the purpose of the project -->
-    <p>This project has many parts to it and many people rae taking part in it.
-        This project has many parts to it and many people rae taking part in it.
-        This project has many parts to it and many people rae taking part in it.
-        This project has many parts to it and many people rae taking part in it.
-        This project has many parts to it and many people rae taking part in it.
-        This project has many parts to it and many people rae taking part in it.
-        This project has many parts to it and many people rae taking part in it.
+    <p>WIP
     </p>
 
     <div class="table-wrapper">
@@ -83,15 +70,7 @@
             </thead>
             <tbody>
                 <tr>
-                    <td>Milestone A</td>
-                    <td>Complete</td>
-                </tr>
-                <tr>
-                    <td>Milestone B</td>
-                    <td>In Progress</td>
-                </tr>
-                <tr>
-                    <td>Milestone C</td>
+                    <td></td>
                     <td></td>
                 </tr>
             </tbody>
