@@ -31,7 +31,7 @@
             
             <div class="image-div">
                 <!-- Best image size would be 500x500 pixels-->
-                <img src="images/cta01.jpg" class="project-image" alt="Project Image">
+                <img src="images/esc.jpg" class="project-image" alt="Project Image">
             </div>
         </div>
         
