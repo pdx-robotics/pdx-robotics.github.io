@@ -6,7 +6,7 @@
 <html lang="en">
 
 <head>
-	<title>Custom ESC - Viking Robotic Society</title>
+	<title>Bubblebee - Viking Robotic Society</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<meta name="description" content="" />
@@ -24,27 +24,28 @@
 <section class="wrapper">
    
 <div class="inner">
-    <h1>Custom ESC</h1>
+    <h1>Bicopter Drone - Bumblebee</h1>
         
     <div class="row">
         <div class="col-6 col-12-medium">
             
             <div class="image-div">
                 <!-- Best image size would be 500x500 pixels-->
-                <img src="images/cta01.jpg" class="project-image" alt="Project Image">
+                <img src="images/bumblebee.jpg" class="project-image" alt="Project Image">
             </div>
         </div>
         
         <div class="col-6 col-12-medium">
             <h3>Links</h3>
-            <a href="https://github.com/pdx-robotics/ElectricSpeedController" class="button primary fit"><i class="icon fa-github">&nbsp;</i>Gitub Repository</a>
+            <a href="https://github.com/pdx-robotics/bicopter-drone" class="button primary fit"><i class="icon fa-github">&nbsp;</i>Gitub Repository</a>
             <!-- Empty paragraph for spacing purposes --> <p></p>
             <h3>Contributing Members</h3>
             <div class="row">
                 <div class="col-6 col-12-medium">
                     <ul>
-                        <li>Preston Cazier</li>
-                        <li>Ian Eykamp</li>
+                        <li>Giando Sigurani</li>
+                        <li>John Egal</li>
+                        <li>Weiting Duan</li>
                     </ul>
                 </div>
             </div>
@@ -78,7 +79,7 @@
     </div>
 
 </div>
-<!--========================================================================================-->
+<!--========================================================================================--> 
 <!--#include virtual="/parts/footer.html"-->
 
 <!-- Scripts -->
