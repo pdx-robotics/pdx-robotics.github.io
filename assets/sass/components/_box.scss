@@ -2,7 +2,7 @@
 
 	.box {
 		border-radius: _size(border-radius);
-		box-shadow: 0px 0px 4px 1px _palette(border-lt);
+		box-shadow: 0 0 4px 1px _palette(border-lt);
 		padding: 3rem;
 
 		> :last-child {
