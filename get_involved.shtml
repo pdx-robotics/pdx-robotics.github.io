@@ -69,10 +69,13 @@
                         everytime, so be sure to access Discord through the client or browser.
                         <ul>
                             <li><a href="https://discordapp.com/download">Download the Discord Client</a>. It's available on PC, Mac, Android, iOS, and Linux.</li>
-                            <li>If you don't want to download, you can also access it through a browser:<a href="https://discordapp.com/">Discord</a></li>
+                            <li>If you don't want to download, you can also access it through a browser: <a href="https://discordapp.com/">Discord</a></li>
                         </ul>
                     </li>
-                    <li>Use this invitation code to join our server: <a href="https://discord.gg/umrxuvg">umrxuvg</a></li>
+                    <li>Use this invitation code to join our server: <a href="https://discord.gg/umrxuvg">umrxuvg</a>
+                        <!-- This adds a bit of whitespace to make it consistent with the other list items -->
+                        <ul></ul>
+                    </li>
                     <li><b>Change your nickname</b> to your real name so we can identify you in the server.
                         <ul>
                             <li>Find your username in the members list</li>
