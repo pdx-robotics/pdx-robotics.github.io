@@ -6,7 +6,7 @@
 <html lang="en">
 
 <head>
-	<title>Custom ESC - Viking Robotic Society</title>
+	<title>Custom ESC - Viking Robotics Society</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
 	<meta name="description" content="" />
@@ -37,7 +37,7 @@
         
         <div class="col-6 col-12-medium">
             <h3>Links</h3>
-            <a href="https://github.com/pdx-robotics/ElectricSpeedController" class="button primary fit"><i class="icon fa-github">&nbsp;</i>Gitub Repository</a>
+            <a href="https://github.com/pdx-robotics/ElectricSpeedController" class="button primary fit"><i class="icon fa-github">&nbsp;</i>Github Repository</a>
             <!-- Empty paragraph for spacing purposes --> <p></p>
             <h3>Contributing Members</h3>
             <div class="row">

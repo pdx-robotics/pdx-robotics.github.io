@@ -6,7 +6,7 @@
 <html lang="en">
 
 <head>
-	<title>KHR-1 - Viking Robotic Society</title>
+	<title>KHR-1 - Viking Robotics Society</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
 	<meta name="description" content="" />
@@ -37,8 +37,8 @@
         <div class="col-6 col-12-medium">
             <h3>Links</h3>
             <ul class="actions">
-                <li><a href="https://github.com/pdx-robotics/Arduino_KHR-1" class="button primary fit"><i class="icon fa-github">&nbsp;</i>Gitub - Arduino KHR1</a></li>
-                <li><a href="https://github.com/pdx-robotics/KinectKHR1" class="button primary fit"><i class="icon fa-github">&nbsp;</i>Gitub - Kinect KHR1</a></li>
+                <li><a href="https://github.com/pdx-robotics/Arduino_KHR-1" class="button primary fit"><i class="icon fa-github">&nbsp;</i>Github - Arduino KHR-1</a></li>
+                <li><a href="https://github.com/pdx-robotics/KinectKHR1" class="button primary fit"><i class="icon fa-github">&nbsp;</i>Github - Kinect KHR-1</a></li>
             </ul>
             
             <!-- Empty paragraph for spacing purposes --> <p></p>
@@ -70,8 +70,7 @@
     <p>
         The Humanoid Robot KHR-1 was made by Kondo Kagaku (近藤科学) and introduced in 2004.  
     	We have changed the control method to an Arduino-based system so that it is portable and works with the Kinect camera. 
-	    By interfacing with the Kinect, not only does it serve as a fun and interactive demo, 
-	    but also serves as  a stepping stone for us toward more complex Kinect-driven projects and machine learning.
+	    By interfacing with Kinect, it is both a fun, interactive demo and a stepping stone towards more complex Kinect-driven projects and machine learning.
     </p>
 
     <div class="table-wrapper">
