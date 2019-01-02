@@ -30,16 +30,12 @@
 	<section class="wrapper">
 		<div class="inner">
 			<header class="special">
-				<h2>We are under construction.</h2>
-				<p>But we don't bite. <a href="get_involved.shtml">Check out our Get Involved page to get in touch.</a></p>
-				<br>
 				<h2>Calendar</h2>
 				<iframe src="https://calendar.google.com/calendar/embed?src=pdx.edu_v68cnhjp6329n0o48pqgsiaric%40group.calendar.google.com&ctz=America%2FLos_Angeles" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 			</header
             >
         </div>
 		<!--#include virtual="parts/events.html"-->
-		
 		
 		<!-- Scripts -->
 		<script src="assets/js/jquery.min.js"></script>
