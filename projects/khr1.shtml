@@ -49,6 +49,7 @@
                         <li>Aaron Chan</li>
                         <li>Jake Chung</li>
                         <li>Ha Ly</li>
+                        <li>William Brines</li>
                     </ul>
                 </div>
                 <div class="col-6 col-12-medium">
@@ -83,12 +84,12 @@
             </thead>
             <tbody>
                 <tr>
-                    <td>Flag Semaphore to fix hardware</td>
+                    <td>Flag Semaphore to fix and test hardware</td>
                     <td>Complete</td>
                 </tr>
                 <tr>
                     <td>Interface with Kinect camera to copy arm movements</td>
-                    <td>Ongoing</td>
+                    <td>Complete</td>
                 </tr>
                 <tr>
                     <td>Implement a Walking Algorithm</td>
