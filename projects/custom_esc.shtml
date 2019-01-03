@@ -31,7 +31,7 @@
             
             <div class="image-div">
                 <!-- Best image size would be 500x500 pixels-->
-                <img src="images/esc.jpg" class="project-image" alt="Project Image">
+                <img src="images/esc.png" class="project-image" alt="Project Image">
             </div>
         </div>
         
@@ -45,6 +45,7 @@
                     <ul>
                         <li>Preston Cazier</li>
                         <li>Ian Eykamp</li>
+                        <li>Eric Ruhl</li>
                     </ul>
                 </div>
             </div>
@@ -57,7 +58,8 @@
     <br>
     <h3>Description</h3> <!-- What is it and the purpose of the project -->
     <p>
-        WIP
+        This will be a variable ESC so that it's compatible with multiple types of motors.
+        Our main usage for this is to test motors and propellers underwater and adjust controlls for desired performance.
     </p>
 
     <div class="table-wrapper">
@@ -70,7 +72,11 @@
             </thead>
             <tbody>
                 <tr>
-                    <td></td>
+                    <td>Design and verify circuit design for ESC</td>
+                    <td>Ongoing</td>
+                </tr>
+                <tr>
+                    <td>Build and test ESC</td>
                     <td></td>
                 </tr>
             </tbody>
