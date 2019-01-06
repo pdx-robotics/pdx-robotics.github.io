@@ -64,7 +64,7 @@
     <h3>Description</h3> <!-- What is it and the purpose of the project -->
     <p>
         This is one of the integrations for the Don Quixote project aiming to combine flight and water travel.
-        The bicopter is a two-rotor flying machine that will pivot it's propellors vertically for flight or horizontally for water travel.
+        The bicopter is a two-rotor flying machine that will pivot its propellers vertically for flight or horizontally for water travel.
         There has been a successful Chinook bicopter of a similar design but we are taking it a step further by implementing underwater functionality to it.
     </p>
 
