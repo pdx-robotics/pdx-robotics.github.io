@@ -59,7 +59,7 @@
     <h3>Description</h3> <!-- What is it and the purpose of the project -->
     <p>
         This will be a variable ESC so that it's compatible with multiple types of motors.
-        Our main usage for this is to test motors and propellers underwater and adjust controlls for desired performance.
+        Our main usage for this is to test motors and propellers underwater and adjust controls for desired performance.
     </p>
 
     <div class="table-wrapper">
