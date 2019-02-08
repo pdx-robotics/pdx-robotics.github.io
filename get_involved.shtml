@@ -11,13 +11,13 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<meta name="description" content="" />
 	<meta name="keywords" content="" />
-    <link rel="stylesheet" href="assets/css/main.css" />
-    <link rel="icon" href="images/vrs_logo_white_icon.png"/>	
+    <link rel="stylesheet" href="/assets/css/main.css" />
+    <link rel="icon" href="/images/vrs_logo_white_icon.png"/>	
 </head>
 <body class="is-preload">
 
 <!-- Page Top Bar and page title -->
-<!--#include virtual="parts/header.html"-->
+<!--#include virtual="/parts/header.html"-->
 <div id="heading" >
     <h1>Get Involved</h1>
 </div>
@@ -54,7 +54,7 @@
                 are in the table below
             </li>
         </ol>   
-        <!--#include virtual="parts/availability_table.html"-->
+        <!--#include virtual="/parts/availability_table.html"-->
         <br> <!-- Line Break -->
 
 
@@ -107,13 +107,13 @@
     </div>
 
     <!-- Scripts -->
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/browser.min.js"></script>
-	<script src="assets/js/breakpoints.min.js"></script>
-	<script src="assets/js/util.js"></script>
-    <script src="assets/js/main.js"></script>
+	<script src="/assets/js/jquery.min.js"></script>
+	<script src="/assets/js/browser.min.js"></script>
+	<script src="/assets/js/breakpoints.min.js"></script>
+	<script src="/assets/js/util.js"></script>
+    <script src="/assets/js/main.js"></script>
     
 </section>
-<!--#include virtual="parts/footer.html"-->
+<!--#include virtual="/parts/footer.html"-->
 </body>
 </html>
