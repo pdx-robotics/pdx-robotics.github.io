@@ -4,16 +4,15 @@ import os
 path = "images"
 headerPath = "../parts/_header.html"
 header = open(headerPath, 'r')
-header = header.readlines()
+header = header.read()
 footerPath = "../parts/footer.html"
 footer = open(footerPath, 'r')
-footer = footer.readlines()
+footer = footer.read()
 
 def pageHeader(header):
     print ("Content-type:text/html\r\n\r\n")
     print ('<html><head>')
-    for line in header:
-        print(line)
+    print(header)
     print('<link rel="stylesheet" href="gallery.css">')
     print ('<title>VRS Gallery</title>')
     print ('</head><body>')
@@ -25,8 +24,7 @@ def pageFooter(footer):
     print('<script src="/assets/js/util.js"></script>')
     print('<script src="/assets/js/main.js"></script>')
     print('<script src="gallery.js"></script>')
-    for line in footer:
-        print(line)
+    print(footer)
     print ('</body></html>')
 
 def slides(images):
