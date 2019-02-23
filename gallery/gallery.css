@@ -5,10 +5,11 @@ img {vertical-align: middle;}
 
 /* Slideshow container */
 .slideshow-container {
-  min-height: 11000px;
+  min-height: 1000px;
   max-width: 1000px;
   position: relative;
   margin: auto;
+  background-color:#111111
 }
 
 /* Next & previous buttons */
@@ -25,6 +26,7 @@ img {vertical-align: middle;}
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
+  background-color: black;
 }
 
 /* Position the "next button" to the right */
