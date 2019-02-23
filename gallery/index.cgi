@@ -35,7 +35,7 @@ def slides(images):
         imageNumber += 1
         print('<div class="mySlides fade">')
         print('<div class="numbertext">' + str(imageNumber) + '/' + str(imageCount) + '</div>')
-        print('<img src="' + images + '/' + image + '"style="width:100%;margin-top:50px">')
+        print('<img src="' + images + '/' + image + '"style="width:90%;margin-top:50px;margin-left:50px">')
         #print('<div class="text">Caption Text</div>')
         print('</div>')
     print('<a class="prev" onclick="plusSlides(-1)">&#10094;</a>')
