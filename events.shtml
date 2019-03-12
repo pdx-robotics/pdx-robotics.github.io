@@ -17,14 +17,14 @@
     <!--#include virtual="/parts/header.html"-->
     
     <section class="wrapper">
-
+        <div class="inner">
         <h2>Flyers</h2>
         <ul>
             <li><a href="/documents/VRS_flyer.pdf">General Flyer</a></li>
             <li><a href="/documents/20181116_GameNight.pdf">[2018-11-16] Game Night</a></li>
-            <li><a href="/documents/20190301_GameNight.pdf">[2019-03-01] Game Night</a></li>
+            <li><a href="/documents/20190315_GameNight.pdf">[2019-03-15] Game Night</a></li>
         </ul>
-        
+        </div>
 
         <!--#include virtual="/parts/events.html"-->
 
