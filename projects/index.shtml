@@ -12,7 +12,7 @@
 	<meta name="description" content="" />
 	<meta name="keywords" content="" />
 	<link rel="stylesheet" href="/assets/css/main.css" />
-	<link rel="icon" href="images/vrs_logo_white_icon.png"/>
+	<link rel="icon" href="/images/vrs_logo_white_icon.png"/>
 </head>
 
 <body class="is-preload">
@@ -21,11 +21,13 @@
 
 	<section class="wrapper">
 	<div class="inner">
+
 		<h2>Projects Index</h2>
 		<ul>
 			<li><a href="bubblebee.shtml">Bicopter Drone - Bubblebee</a></li>
 			<li><a href="custom_esc.shtml">Custom ESC</a></li>
 			<li><a href="khr1.shtml">Humanoid Robot KHR-1</a></li>
+			<li><a href="goat.shtml">Rock Climbing Goat</a></li>
 			<li><a href="tank70108.shtml">Tamiya Tank Control - Tank 70108</a></li>
 		</ul>
 	</div>

@@ -44,8 +44,13 @@
                 <div class="col-6 col-12-medium">
                     <ul>
                         <li>Giando Sigurani</li>
-                        <li>John Egal</li>
                         <li>Weiting Duan</li>
+                    </ul>
+                </div>
+                <div class="col-6 col-12-medium">
+                    <ul>
+                        <li>Jake Chung</li>
+                        <li>John Egal</li>
                     </ul>
                 </div>
             </div>
@@ -58,7 +63,9 @@
     <br>
     <h3>Description</h3> <!-- What is it and the purpose of the project -->
     <p>
-        WIP
+        This is one of the integrations for the Don Quixote project aiming to combine flight and water travel.
+        The bicopter is a two-rotor flying machine that will pivot its propellers vertically for flight or horizontally for water travel.
+        There has been a successful Chinook bicopter of a similar design but we are taking it a step further by implementing underwater functionality to it.
     </p>
 
     <div class="table-wrapper">
@@ -71,7 +78,11 @@
             </thead>
             <tbody>
                 <tr>
-                    <td></td>
+                    <td>Design custom frame and construct the bicopter</td>
+                    <td>Ongoing</td>
+                </tr>
+                <tr>
+                    <td>Get bicopter to fly reliably</td>
                     <td></td>
                 </tr>
             </tbody>
@@ -79,6 +90,9 @@
     </div>
 
 </div>
+
+</section>
+
 <!--========================================================================================--> 
 <!--#include virtual="/parts/footer.html"-->
 
