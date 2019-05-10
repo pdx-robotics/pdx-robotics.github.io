@@ -2485,6 +2485,12 @@ body {
 @media screen and (max-width: 480px) {
   #header {
     min-width: 320px; } }
+
+#vrs-text {
+  white-space: nowrap;
+  overflow-x: scroll;
+}
+
 /* Heading */
 #heading {
   -ms-flex-align: center;
