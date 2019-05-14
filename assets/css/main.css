@@ -2488,7 +2488,6 @@ body {
 
 #vrs-text {
   white-space: nowrap;
-  overflow-x: scroll;
 }
 
 /* Heading */
