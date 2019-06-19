@@ -1,0 +1,4 @@
+AuthType basic
+AuthName "admin"
+AuthUserFile /u/geoolson/.htpasswd
+require valid-user

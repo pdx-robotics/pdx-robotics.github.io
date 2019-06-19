@@ -16,7 +16,9 @@
 </head>
 
 <body class="is-preload">
-	<!--#include virtual="/parts/header.html"-->
+<?php
+include "./parts/header.html";
+?>
 	<!-- Banner -->
 	<section id="banner">
 		<div class="inner">
@@ -34,8 +36,10 @@
 				<iframe src="https://calendar.google.com/calendar/embed?src=pdx.edu_v68cnhjp6329n0o48pqgsiaric%40group.calendar.google.com&ctz=America%2FLos_Angeles" style="border: 0" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
 			</header>
     </div>
-		<!--#include virtual="/parts/events.html"-->
-		
+<?php 
+include "./parts/events.html";
+?>
+
 		<!-- Scripts -->
 		<script src="/assets/js/jquery.min.js"></script>
 		<script src="/assets/js/browser.min.js"></script>
@@ -44,6 +48,8 @@
 		<script src="/assets/js/main.js"></script>
 	</section>
 	<!-- Footer -->
-	<!--#include virtual="/parts/footer.html"-->
+<?php
+include "./parts/footer.html";
+?>
 </body>
 </html>
