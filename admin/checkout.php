@@ -60,7 +60,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $name = test_input($_POST["name"]);
     $serial = test_input($_POST["serial"]);
     $quantity = test_input($_POST["quantity"]);
-    $sql = "INSERT INTO inventory VALUE( UUID(), \"" . $name ." \",\" ". $serial ." \", ".$quantity . ",\"\")";
+    $sql = "INSERT INTO checkout VALUE( UUID(), \"" . $name ." \",\" ". $serial ." \", ".$quantity . ",\"\")";
     try{
       $result = mysqli_query($conn, $sql);
     }
