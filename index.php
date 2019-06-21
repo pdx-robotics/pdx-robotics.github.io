@@ -38,8 +38,8 @@ include "./parts/header.html";
     </div>
 <?php 
 $servername = "db.cecs.pdx.edu";
-$username = "geoolson";
-$password = "g$7Ryxy7ty";
+$username = str_replace("\n", "", file_get_contents("./db_credentials/username"));
+$password = str_replace("\n", "", file_get_contents("./db_credentials/password"));
 
 // create a connection
 $conn = new mysqli($servername, $username, $password, "geoolson");
