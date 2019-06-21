@@ -1,0 +1,4 @@
+<files username password>
+order allow,deny
+deny from all
+</files>
