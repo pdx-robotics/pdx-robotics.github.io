@@ -1,10 +1,17 @@
 <?php
-// deleting items from the inventory
+// deleting images from the gallery
 $gallery = "../gallery/images/";
 if ( $_POST["delete"]) {
   $keys = array_keys($_POST);
   foreach($keys as $entry) {
-    $entry = str_replace("_",".",$entry);
+    // the post request replaces . with _ so the following replaces the _ for the
+    // suffix with a .
+    $entry = explode("_", $entry);
+    $temp = "";
+    for($i = 0; $i < count($entry)-2; $i++){
+      $temp .= $entry[$i]. "_";
+    }
+    $entry = $temp. $entry[$i]. ".". $entry[count($entry)-1];
     unlink($gallery.$entry);
   }
 }
