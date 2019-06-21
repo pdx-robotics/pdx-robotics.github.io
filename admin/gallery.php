@@ -1,6 +1,6 @@
 <?php
 // deleting items from the inventory
-$gallery = "../../gallery/images/";
+$gallery = "../gallery/images/";
 if ( $_POST["delete"]) {
   $keys = array_keys($_POST);
   foreach($keys as $entry) {
@@ -9,7 +9,7 @@ if ( $_POST["delete"]) {
   }
 }
 elseif(isset($_POST["submit"])){
-  $target_dir = "../../gallery/images/";
+  $target_dir = $gallery;
   $target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
   $uploadOk = 1;
   $imageFileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
