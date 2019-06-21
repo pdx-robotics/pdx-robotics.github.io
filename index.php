@@ -54,7 +54,7 @@ echo "<div class='inner'><header class='special'>";
 echo "<h2>Events</h2>";
 echo "<a href='https://www.when2meet.com/?7898622-Brow2'>Availability Poll</a><br>";
 echo "Meetings are held in the Fourth Avenue Building(FAB) basement level on Portland State Campus";
-$sql = "SELECT * FROM events ORDER BY date DESC";
+$sql = "SELECT * FROM events WHERE date >= CURDATE() ORDER BY date ASC";
 $result = mysqli_query($conn, $sql);
 if(mysqli_num_rows($result) > 0){
   echo "
