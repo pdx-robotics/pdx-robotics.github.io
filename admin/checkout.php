@@ -32,7 +32,7 @@ $username = str_replace("\n", "", file_get_contents("../db_credentials/username"
 $password = str_replace("\n", "", file_get_contents("../db_credentials/password"));
 
 // create a connection
-$conn = new mysqli($servername, $username, $password, "geoolson");
+$conn = new mysqli($servername, $username, $password, $username);
 
 // check connection
 if ($conn->connect_error) {
