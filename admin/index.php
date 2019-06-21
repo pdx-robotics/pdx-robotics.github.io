@@ -21,6 +21,7 @@ include "../parts/header.html";
 <a href="/admin/inventory">inventory</a><br>
 <a href="/admin/checkout.php">check out form and database</a><br>
 <a href="/admin/events.php">events on front page</a><br>
+<a href="/admin/gallery">gallery</a><br>
 </header>
 </div>
 
