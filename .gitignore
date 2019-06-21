@@ -3,4 +3,4 @@
 *.swn
 /db_credentials/username
 /db_credentials/password
-/gallery/images/*.*
+/gallery/images/*
