@@ -71,12 +71,16 @@ elseif(isset($_POST["submit"])){
   };
   </style>
   <body>
-    <h2>Upload Image</h2>
+<?php
+include "header.html";
+?>
+    <h2>Upload Image to Gallery</h2>
     <form method="post" enctype="multipart/form-data">
       Select image to upload:
       <input type="file" name="fileToUpload" id="fileToUpload"><br>
       <input type="submit" value="Upload Image" name="submit">
     </form>
+    <hr>
     <h2>Images in Gallery</h2>
     <table>
       <form method='post'>

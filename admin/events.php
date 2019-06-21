@@ -6,6 +6,9 @@ table, th, td {
 };
 </style>
 <body>
+<?php
+include "header.html";
+?>
 <h2>Events</h2>
 
 <!-- form for adding a new event -->
@@ -337,6 +340,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 }
 
 // Table of events
+echo "<hr><h2>Table of Events</h2>";
 $sql = "SELECT * FROM events ORDER BY date DESC";
 $result = mysqli_query($conn, $sql);
 if(mysqli_num_rows($result) > 0){

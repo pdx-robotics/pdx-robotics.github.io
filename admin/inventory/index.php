@@ -6,6 +6,9 @@ table, th, td {
 };
 </style>
 <body>
+<?php
+include "../header.html";
+?>
 <form method="POST">
   <h2>Append to inventory</h2>
   Name:<br>
@@ -68,7 +71,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   }
 }
 
-echo "<br><h2>Inventory</h2>";
+echo "<br><hr><h2>Inventory</h2>";
 $sql = "SELECT * FROM inventory";
 $result = mysqli_query($conn, $sql);
 if(mysqli_num_rows($result) > 0){
