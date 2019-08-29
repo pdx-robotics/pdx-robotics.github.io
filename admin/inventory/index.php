@@ -1,3 +1,4 @@
+<?php include "../isAdmin.php";?>
 <!DOCTYPE html>
 <html>
 <style>

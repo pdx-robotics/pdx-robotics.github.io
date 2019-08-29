@@ -1,8 +1,7 @@
-<?php include 'isAdmin.php';?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Admin Portal</title>
+	<title>Login</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
 	<meta name="description" content="" />
@@ -15,23 +14,19 @@
 <?php
 include "../parts/header.html";
 ?>
-<div class="inner">
-  <h2>Admin Section</h2>
-  <div class="row">
-    <div class="col-4 col-12-medium">
-      <ul style="list-style-type:none;">
-      <li><a href="/admin/inventory">inventory</a></li>
-      <li><a href="/admin/checkout.php">check out form and database</a></li>
-      <li><a href="/admin/events.php">events on front page</a></li>
-      <li><a href="/admin/gallery.php">gallery</a></li>
-      </ul>
-    </div>
-    <div class="col-4 col-12-medium">
-      <img src="responsibility.jpg" alt="With great power comes great responsibility">
-    </div>
-  </div>
-</div>
-
+<?php
+session_start();
+if( isset($_SESSION['credentialCorrect']) and $_SESSION['credentialsCorrect'] == False){
+  echo "<font color='red'>incorrect username/password</font>";
+}
+?>
+<form action="/admin/authenticate.php">
+  Username:<br>
+  <input type="text" name="username" value=""><br>
+  Password:<br>
+  <input type="password" name="password" value=""><br><br>
+  <input type="submit" value="Submit">
+</form>
 <!-- Scripts -->
 <script src="/assets/js/jquery.min.js"></script>
 <script src="/assets/js/browser.min.js"></script>

@@ -1,3 +1,4 @@
+<?php include "isAdmin.php";?>
 <?php
 // deleting images from the gallery
 $gallery = "../gallery/images/";
