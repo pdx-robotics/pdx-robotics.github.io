@@ -1,48 +1,34 @@
-<!DOCTYPE HTML>
-<!--
-    Viking Robotics Society
-    Rock Climbing Goat
--->
-<html lang="en">
-<head>
-    <title>Projects Template - Viking Robotics Society</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
-    <meta name="description" content="" />
-    <meta name="keywords" content="" />
-    <link rel="stylesheet" href="/assets/css/main.css" />
-    <link rel="icon" href="/images/vrs_logo_white_icon.png"/>
-</head>
-<body class="is-preload">
+<?php include "../parts/head.php"; 
+	head("Custom ESC - Viking Robotics Society");
+?>
 
-<!--#include virtual="/parts/header.html"-->
 <!--========================================================================================-->        
     
 <section class="wrapper">
    
 <div class="inner">
-    <h1>Rock Climbing Goat</h1>
+    <h1>Custom ESC</h1>
         
     <div class="row">
         <div class="col-6 col-12-medium">
             
             <div class="image-div">
                 <!-- Best image size would be 500x500 pixels-->
-                <img src="/projects/images/goat.png" class="project-image" alt="Rock Climbing Goat">
+                <img src="images/esc.png" class="project-image" alt="Project Image">
             </div>
         </div>
         
         <div class="col-6 col-12-medium">
             <h3>Links</h3>
-            <a href="https://github.com/pdx-robotics/RockingClimbingGoat" class="button primary fit"><i class="icon fa-github">&nbsp;</i>Github Repository</a>
+            <a href="https://github.com/pdx-robotics/ElectricSpeedController" class="button primary fit"><i class="icon fa-github">&nbsp;</i>Github Repository</a>
             <!-- Empty paragraph for spacing purposes --> <p></p>
             <h3>Contributing Members</h3>
             <div class="row">
                 <div class="col-6 col-12-medium">
                     <ul>
                         <li>Preston Cazier</li>
-                        <li>Geoffrey Olson</li>
-                        <li>Jake Chung</li>
+                        <li>Ian Eykamp</li>
+                        <li>Eric Ruhl</li>
                     </ul>
                 </div>
             </div>
@@ -55,7 +41,8 @@
     <br>
     <h3>Description</h3> <!-- What is it and the purpose of the project -->
     <p>
-        This is an integration of the Don Quixote Project. 
+        This will be a variable ESC so that it's compatible with multiple types of motors.
+        Our main usage for this is to test motors and propellers underwater and adjust controls for desired performance.
     </p>
 
     <div class="table-wrapper">
@@ -68,11 +55,11 @@
             </thead>
             <tbody>
                 <tr>
-                    <td>Develop walking algorithm for 4 gaited model</td>
+                    <td>Design and verify circuit design for ESC</td>
                     <td>Ongoing</td>
                 </tr>
                 <tr>
-                    <td>Implement navigation and self-balancing</td>
+                    <td>Build and test ESC</td>
                     <td></td>
                 </tr>
             </tbody>
@@ -80,6 +67,12 @@
     </div>
 
 </div>
+
+</section>
+
+<!--========================================================================================-->
+<?php include "../parts/footer.html";?>
+
 <!-- Scripts -->
 <script src="/assets/js/jquery.min.js"></script>
 <script src="/assets/js/browser.min.js"></script>
@@ -87,9 +80,5 @@
 <script src="/assets/js/util.js"></script>
 <script src="/assets/js/main.js"></script>
 
-</section>
-
-<!--========================================================================================-->        
-<!--#include virtual="/parts/footer.html"-->
 </body>
 </html>

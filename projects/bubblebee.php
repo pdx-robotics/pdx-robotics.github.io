@@ -1,24 +1,6 @@
-<!DOCTYPE HTML>
-<!--
-    Viking Robotics Society
-    Page with information to our projects
--->
-<html lang="en">
-
-<head>
-	<title>Bubblebee - Viking Robotics Society</title>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
-	<meta name="description" content="" />
-	<meta name="keywords" content="" />
-	<link rel="stylesheet" href="/assets/css/main.css" />
-	<link rel="icon" href="/images/vrs_logo_white_icon.png"/>
-</head>
-
-<body class="is-preload">
-
-<!--#include virtual="/parts/header.html"-->
-
+<?php include '../parts/head.php';
+  head($title='Bubblebee - Viking Robotics Society');
+?>
 <!--========================================================================================-->        
     
 <section class="wrapper">
@@ -94,8 +76,7 @@
 </section>
 
 <!--========================================================================================--> 
-<!--#include virtual="/parts/footer.html"-->
-
+<?php include "../parts/footer.html";?>
 <!-- Scripts -->
 <script src="/assets/js/jquery.min.js"></script>
 <script src="/assets/js/browser.min.js"></script>

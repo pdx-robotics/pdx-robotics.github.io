@@ -1,19 +1,7 @@
-<?php include 'isAdmin.php';?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<title>Admin Portal</title>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
-	<meta name="description" content="" />
-	<meta name="keywords" content="" />
-	<link rel="stylesheet" href="/assets/css/main.css" />
-	<link rel="icon" href="/images/vrs_logo_white_icon.png"/> 
-</head>
-
-<body class="is-preload">
-<?php
-include "../parts/header.html";
+<?php 
+  include 'isAdmin.php';
+  include "../parts/head.php";
+  head($title="Admin Portal");
 ?>
 <div class="inner">
   <h2>Admin Section</h2>
@@ -39,8 +27,8 @@ include "../parts/header.html";
 <script src="/assets/js/util.js"></script>
 <script src="/assets/js/main.js"></script>
 <?php
-// footer
-include "../parts/footer.html";
+  // footer
+  include "../parts/footer.html";
 ?>
 </body>
 </html>

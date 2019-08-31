@@ -1,21 +1,6 @@
-<!DOCTYPE HTML>
-<!--
-    Event Information for the club, including flyers and a calendar.
--->
-<html lang="en">
-<head>
-	<title>Events - Viking Robotics Society</title>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
-	<meta name="description" content="" />
-	<meta name="keywords" content="" />
-	<link rel="stylesheet" href="/assets/css/main.css" />
-	<link rel="icon" href="/images/vrs_logo_white_icon.png"/> 
-</head>
-
-<body class="is-preload">
-    <!--#include virtual="/parts/header.html"-->
-    
+<?php include './parts/head.php';
+  head($title='Events - Viking Robotics Society');
+?>
     <section class="wrapper">
         <div class="inner">
         <h2>Flyers</h2>
@@ -26,7 +11,7 @@
         </ul>
         </div>
 
-        <!--#include virtual="/parts/events.html"-->
+        <?php include "/parts/events.html";?>
 
         <div class="inner">
             <header class="special">
@@ -40,8 +25,7 @@
 		<script src="/assets/js/breakpoints.min.js"></script>
 		<script src="/assets/js/util.js"></script>
 		<script src="/assets/js/main.js"></script>
-	</section>
-	<!-- Footer -->
-	<!--#include virtual="/parts/footer.html"-->
+  </section>
+<?php include './parts/footer.html';?>
 </body>
 </html>
