@@ -1,0 +1,6 @@
+*.swp
+*.swo
+*.swn
+/db_credentials/username
+/db_credentials/password
+/gallery/images/*
