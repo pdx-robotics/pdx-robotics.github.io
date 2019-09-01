@@ -1,88 +1,24 @@
 <?php include '../parts/head.php';
-  head($title='Bubblebee - Viking Robotics Society');
-?>
-<!--========================================================================================-->        
-    
-<section class="wrapper">
-   
-<div class="inner">
-    <h1>Bicopter Drone - Bubblebee</h1>
-        
-    <div class="row">
-        <div class="col-6 col-12-medium">
-            
-            <div class="image-div">
-                <!-- Best image size would be 500x500 pixels-->
-                <img src="images/bumblebee.jpg" class="project-image" alt="Project Image">
-            </div>
-        </div>
-        
-        <div class="col-6 col-12-medium">
-            <h3>Links</h3>
-            <a href="https://github.com/pdx-robotics/bicopter-drone" class="button primary fit"><i class="icon fa-github">&nbsp;</i>Github Repository</a>
-            <!-- Empty paragraph for spacing purposes --> <p></p>
-            <h3>Contributing Members</h3>
-            <div class="row">
-                <div class="col-6 col-12-medium">
-                    <ul>
-                        <li>Giando Sigurani</li>
-                        <li>Weiting Duan</li>
-                    </ul>
-                </div>
-                <div class="col-6 col-12-medium">
-                    <ul>
-                        <li>Jake Chung</li>
-                        <li>John Egal</li>
-                    </ul>
-                </div>
-            </div>
-            
-            <h3>Status of Project</h3><!-- Onging, complete, or stale -->
-            <p>Ongoing</p>
-        </div>
-    </div>
-    
-    <br>
-    <h3>Description</h3> <!-- What is it and the purpose of the project -->
-    <p>
-        This is one of the integrations for the Don Quixote project aiming to combine flight and water travel.
-        The bicopter is a two-rotor flying machine that will pivot its propellers vertically for flight or horizontally for water travel.
-        There has been a successful Chinook bicopter of a similar design but we are taking it a step further by implementing underwater functionality to it.
-    </p>
-
-    <div class="table-wrapper">
-        <table>
-            <thead>
-                <tr>
-                    <th>Milestones</th>
-                    <th>Status</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Design custom frame and construct the bicopter</td>
-                    <td>Ongoing</td>
-                </tr>
-                <tr>
-                    <td>Get bicopter to fly reliably</td>
-                    <td></td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-
-</div>
-
-</section>
-
-<!--========================================================================================--> 
-<?php include "../parts/footer.html";?>
-<!-- Scripts -->
-<script src="/assets/js/jquery.min.js"></script>
-<script src="/assets/js/browser.min.js"></script>
-<script src="/assets/js/breakpoints.min.js"></script>
-<script src="/assets/js/util.js"></script>
-<script src="/assets/js/main.js"></script>
-
+head($title='Bubblebee - Viking Robotics Society');
+include 'template.php';
+$project_title = 'Bicopter Drone - bubblebee';
+$image = 'images/bumblebee.jpg';
+$links = [
+  ['https://github.com/pdx-robotics/bicopter-drone', 'Github Repository']
+];
+$contributors = [
+  "Giando Sigurani",
+  "Weiting Duan",
+  "Jake Chung",
+  "John Egal"
+];
+$status = "Ongoing";
+$description = "This is one of the integrations for the Don Quixote project aiming to combine flight and water travel. The bicopter is a two-rotor flying machine that will pivot its propellers vertically for flight or horizontally for water travel. There has been a successful Chinook bicopter of a similar design but we are taking it a step further by implementing underwater functionality to it.";
+$milestones = [
+  ["Design custom frame and construct the bicopter","Ongoing"],
+  ["Get bicopter to fly reliably",""],
+];
+generate($project_title, $image, $links, $contributors, $status, $description, $milestones);
+include "../parts/footer.html";?>
 </body>
 </html>
