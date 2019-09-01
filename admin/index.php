@@ -12,6 +12,7 @@
       <li><a href="/admin/checkout.php">check out form and database</a></li>
       <li><a href="/admin/events.php">events on front page</a></li>
       <li><a href="/admin/gallery.php">gallery</a></li>
+      <li><a href="/admin/logout.php">logout</a></li>
       </ul>
     </div>
     <div class="col-4 col-12-medium">
@@ -19,13 +20,6 @@
     </div>
   </div>
 </div>
-
-<!-- Scripts -->
-<script src="/assets/js/jquery.min.js"></script>
-<script src="/assets/js/browser.min.js"></script>
-<script src="/assets/js/breakpoints.min.js"></script>
-<script src="/assets/js/util.js"></script>
-<script src="/assets/js/main.js"></script>
 <?php
   // footer
   include "../parts/footer.html";
