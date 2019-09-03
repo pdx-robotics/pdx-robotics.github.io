@@ -19,17 +19,7 @@
 			</header>
     </div>
 <?php 
-$servername = "db.cecs.pdx.edu";
-$username = str_replace("\n", "", file_get_contents("./db_credentials/username"));
-$password = str_replace("\n", "", file_get_contents("./db_credentials/password"));
-
-// create a connection
-$conn = new mysqli($servername, $username, $password, $username);
-
-// check connection
-if ($conn->connect_error) {
-  die("Connectoin failed: " . $conn->connect_error);
-}
+include './db.php';
 
 // Table of events
 echo "<div class='inner'><header class='special'>";
