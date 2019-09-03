@@ -1,27 +1,35 @@
-<?php include "../isAdmin.php";?>
-<!DOCTYPE html>
-<html>
+<?php include "../isAdmin.php";
+include "../../parts/head.php";
+head('inventory');
+?>
 <style>
 table, th, td {
   border: 1px solid black;
 };
 </style>
-<body>
-<?php
-include "../header.html";
-?>
-<form method="POST">
-  <h2>Append to inventory</h2>
-  Name:<br>
-  <input type="text" name="name"><br>
-  Serial:<br>
-  <input type="text" name="serial"><br>
-  Notes :<br>
-  <input type="text" name="notes"><br>
-  Quantity:<br>
-  <input type="text" name="quantity"><br>
-  <input type="submit" value="Submit">
-</form>
+<section class="wrapper">
+  <div class="inner">
+    <header class="special">
+      <form method="POST">
+        <h2>Append to inventory</h2>
+        <div class="row gtr-uniform">
+          <div class="col-6 col-12-small">
+            Name:<br>
+            <input type="text" name="name">
+            Serial:<br>
+            <input type="text" name="serial"><br>
+          </div>
+          <div class="col-6 col-12-small">
+            Notes :<br>
+            <input type="text" name="notes">
+            Quantity:<br>
+            <input type="text" name="quantity"><br>
+          </div>
+        </div>
+        <input type="submit" value="Submit">
+      </form>
+    </header>
+  </div>
 <?php
 include '../../db.php';
 
@@ -62,9 +70,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   }
 }
 
-echo "<br><hr><h2>Inventory</h2>";
 $sql = "SELECT * FROM inventory";
 $result = mysqli_query($conn, $sql);
+?>
+  <div class="inner">
+    <header class="special">
+      <hr><h2>Inventory</h2>
+      <style>
+        .ignore-css{all:unset;}
+      </style>
+<?php
 if(mysqli_num_rows($result) > 0){
   echo "
 <table>
@@ -83,7 +98,15 @@ if(mysqli_num_rows($result) > 0){
   // building the table with the inventory
   while( $row = mysqli_fetch_assoc($result) ){
     echo 
-    "<tr><td><input type ='checkbox' name='". $row["id"]. "'/></td><td>".
+    '
+    <tr><td>
+      <div class="col-6 col-12-small">
+        <input type="checkbox" id="'.$row['id'].'" name="'.$row['id'].'">
+        <label for="'.$row['id'].'"></label>
+      </div>
+    </td><td>'.
+
+
     $row["name"] . "</td><td>" . 
     $row["serialnum"]. "</td><td>" . 
     $row["notes"]. "</td><td>" . 
@@ -93,5 +116,9 @@ if(mysqli_num_rows($result) > 0){
   echo "</form></table>";
 }
 ?>
+    </header>
+  </div>
+</section>
+<?php include '../../parts/footer.html'; ?>
 </body>
 </html>
