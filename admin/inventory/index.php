@@ -76,9 +76,6 @@ $result = mysqli_query($conn, $sql);
   <div class="inner">
     <header class="special">
       <hr><h2>Inventory</h2>
-      <style>
-        .ignore-css{all:unset;}
-      </style>
 <?php
 if(mysqli_num_rows($result) > 0){
   echo "
