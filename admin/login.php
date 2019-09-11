@@ -13,6 +13,6 @@ if( isset($_SESSION['credentialCorrect']) and $_SESSION['credentialsCorrect'] ==
   <input type="password" name="password" value=""><br><br>
   <input type="submit" value="Submit">
 </form>
-<?php include "../parts/footer.html"; ?>
+<?php include "../parts/footer.php"; ?>
 </body>
 </html>

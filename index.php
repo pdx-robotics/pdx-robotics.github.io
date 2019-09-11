@@ -81,7 +81,7 @@ if(mysqli_num_rows($result) > 0){
   echo "</header></div></table>";
 }
 // end of table of events
-include "./parts/footer.html";
+include "./parts/footer.php";
 ?>
 </body>
 </html>

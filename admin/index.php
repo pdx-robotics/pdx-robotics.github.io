@@ -22,7 +22,7 @@
 </div>
 <?php
   // footer
-  include "../parts/footer.html";
+  include "../parts/footer.php";
 ?>
 </body>
 </html>

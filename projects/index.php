@@ -17,6 +17,6 @@ include '../parts/head.php';
 	</div>
 	</section>
 
-<?php include "../parts/footer.html";?>
+<?php include "../parts/footer.php";?>
 </body>
 </html>

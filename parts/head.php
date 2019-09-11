@@ -36,15 +36,8 @@ function head($title){
 
 <!-- Nav -->
     <nav id="menu">
-        <ul class="links">
-            <li><a href="/">Home</a></li>
-            <li><a href="/get_involved.php">Get Involved</a></li>
-            <li><a href="/events.php">Events</a></li>
-            <li><a href="/projects/">Projects</a></li>
-            <li><a href="/gallery">Gallery</a></li>
-            <li><a href="/admin">Admin</a></li>
-        </ul>
-    </nav>
-';
+        <ul class="links">';
+            include "menuLinks.html";
+        echo '</ul></nav>';
 }
 ?>

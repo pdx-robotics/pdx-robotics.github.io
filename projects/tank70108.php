@@ -20,6 +20,6 @@ $milestones = [
   ["Make tutorial as Introduction to Robotics for new members","Ongoing"]
 ];
 generate($project_title, $image, $links, $contributors, $status, $description, $milestones);
-include "../parts/footer.html";?>
+include "../parts/footer.php";?>
 </body>
 </html>

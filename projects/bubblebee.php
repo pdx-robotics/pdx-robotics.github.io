@@ -19,6 +19,6 @@ $milestones = [
   ["Get bicopter to fly reliably",""],
 ];
 generate($project_title, $image, $links, $contributors, $status, $description, $milestones);
-include "../parts/footer.html";?>
+include "../parts/footer.php";?>
 </body>
 </html>

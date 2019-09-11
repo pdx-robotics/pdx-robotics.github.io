@@ -116,6 +116,6 @@ if(mysqli_num_rows($result) > 0){
     </header>
   </div>
 </section>
-<?php include '../../parts/footer.html'; ?>
+<?php include '../../parts/footer.php'; ?>
 </body>
 </html>

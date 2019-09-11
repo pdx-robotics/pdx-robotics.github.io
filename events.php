@@ -19,6 +19,6 @@
                 <iframe src="https://calendar.google.com/calendar/embed?src=pdx.edu_v68cnhjp6329n0o48pqgsiaric%40group.calendar.google.com&ctz=America%2FLos_Angeles" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
             </header>
         </div>
-<?php include './parts/footer.html';?>
+<?php include './parts/footer.php';?>
 </body>
 </html>

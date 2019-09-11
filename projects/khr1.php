@@ -30,6 +30,6 @@ $milestones = [
 ];
 generate($project_title, $image, $links, $contributors, $status, $description, $milestones);
 ?>
-<?php include "../parts/footer.html";?>
+<?php include "../parts/footer.php";?>
 </body>
 </html>

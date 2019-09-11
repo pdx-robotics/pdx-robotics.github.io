@@ -24,6 +24,6 @@ for( $i=1; $i <= $imageCount; $i++ ){
 }
 echo '</div>';
 echo '<script src="gallery.js"></script>';
-include "../parts/footer.html";
+include "../parts/footer.php";
 ?>
 </body></html>

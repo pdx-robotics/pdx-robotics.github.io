@@ -15,9 +15,7 @@
             <section>
                 <h4>Quick Links</h4>
                 <ul class="alt">
-                    <li><a href="/index.shtml">Home</a></li>
-                    <li><a href="/get_involved.shtml">Get Involved</a></li>
-                    <li><a href="/projects/">Projects</a></li>
+                    <? include 'menuLinks.html'; ?>
                 </ul>
             </section>
             <section>
