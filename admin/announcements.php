@@ -5,7 +5,8 @@
     head('announcements');
     include '../db.php';
     $sql = "SELECT * FROM announcements";
-    $result = mysqli_query($conn, $sql);?>
+    $result = mysqli_query($conn, $sql);
+?>
     <section id="main" class="wrapper">
         <div class="inner">
             <div class="content">
@@ -16,12 +17,12 @@
                 foreach($result as $row){
                     if(isset($row['attachment']) && $row['attachment'] != ""){
                         echo '<div class="row">';
-                        echo '<div class="col-7 col-12-medium">'.PHP_EOL;
+                        echo '<div class="col-8 col-12-medium">'.PHP_EOL;
                     }
                     echo $parsedown->text($row['announcement']).PHP_EOL;
                     if(isset($row['attachment']) && $row['attachment'] != ""){
                         echo '</div>';
-                        echo '<div class="col-5 col-12-medium"><img src="';
+                        echo '<div class="col-4 col-12-medium"><img src="';
                         echo $row['attachment'];
                         echo '" style="max-width: 300px;"></p>'.PHP_EOL;
                         echo '</div>';
