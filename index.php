@@ -11,18 +11,19 @@
 	</section>
 
 	<!-- Highlights -->
-	<section class="wrapper">
+	<section id='main' class="wrapper">
+    <?php include './parts/announcements.php'; ?>
 		<div class="inner">
-			<header class="special">
-				<h2>Calendar</h2>
-				<iframe src="https://calendar.google.com/calendar/embed?src=pdx.edu_v68cnhjp6329n0o48pqgsiaric%40group.calendar.google.com&ctz=America%2FLos_Angeles" style="border: 0" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
-			</header>
+      <header class="special">
+        <h2>Calendar</h2>
+        <iframe src="https://calendar.google.com/calendar/embed?src=pdx.edu_v68cnhjp6329n0o48pqgsiaric%40group.calendar.google.com&ctz=America%2FLos_Angeles" style="border: 0" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
+      </header>
     </div>
 <?php 
 include './db.php';
 
 // Table of events
-echo "<div class='inner'><header class='special'>";
+echo "<div class='inner'><div class='content'><header class='special'>";
 echo "<h2>Events</h2>";
 echo "<a href='https://www.when2meet.com/?7898622-Brow2'>Availability Poll</a><br>";
 echo "Meetings are held in the Fourth Avenue Building(FAB) basement level on Portland State Campus";
@@ -77,10 +78,11 @@ if(mysqli_num_rows($result) > 0){
     $start_time. " to " .$end_time. "</td><td>". 
     $row["room"]. "</td></tr>";
   }
-  echo "</tbody>";
-  echo "</header></div></table>";
+  echo "</tbody></table>";
+  echo "</header></div></div>";
 }
 // end of table of events
+echo "</section>";
 include "./parts/footer.php";
 ?>
 </body>
