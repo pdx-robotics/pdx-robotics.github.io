@@ -1,9 +1,13 @@
 <?php
-include "../dbpdo.php";
+include "../../dbpdo.php";
 include "token.php";
-if(strcmp($_POST['token'], $token) !== 0){
-  echo 'invalid token';
-  exit();
+session_start();
+$set = isset($_SESSION['admin']);
+if($set and $_SESSION['admin'] != 1){
+  if(strcmp($_POST['token'], $token) !== 0){
+    echo 'invalid token';
+    exit();
+  }
 }
 $action = $_POST['action'];
 $name = urldecode($_POST['name']);
@@ -18,6 +22,8 @@ elseif($action === "delete"){
   $stmt->execute([$project_name, $name]);
   echo 'Removed '.$name.' from project: '.$project_name;
 }
-else
+else{
   echo 'error';
+  var_dump($_POST);
+}
 ?>

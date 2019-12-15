@@ -43,6 +43,9 @@ else{
 <?php
 }
 head($title = $name." - Viking Robotics Society");
-include "../parts/footer.php";?>
+include "../parts/footer.php";
+?>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+<script src="admin.js"></script>
 </body>
 </html>
