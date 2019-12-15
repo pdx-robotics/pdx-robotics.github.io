@@ -13,6 +13,7 @@ include '../parts/head.php';
 			<li><a href="khr1.php">Humanoid Robot KHR-1</a></li>
 			<li><a href="goat.php">Rock Climbing Goat</a></li>
 			<li><a href="tank70108.php">Tamiya Tank Control - Tank 70108</a></li>
+			<li><a href="arm.php">Robot Arm</a></li>
 		</ul>
 	</div>
 	</section>
