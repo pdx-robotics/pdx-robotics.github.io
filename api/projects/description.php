@@ -3,12 +3,14 @@ include "../../dbpdo.php";
 include "token.php";
 session_start();
 $set = isset($_SESSION['admin']);
-if($set and $_SESSION['admin'] != 1){
+if(!$set){
   if(strcmp($_POST['token'], $token) !== 0){
     echo 'invalid token';
     exit();
   }
 }
+if($_SESSION['admin'] != 1)
+  exit();
 $action = $_POST['action'];
 $desc = urldecode($_POST['description']);
 $project_name = urldecode($_POST['project_name']);
